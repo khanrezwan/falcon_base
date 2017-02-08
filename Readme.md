@@ -1,4 +1,6 @@
 Trying Python Falcon framework + RethinkDB+ with PyPy interpreter. used this [Tutoial](https://impythonist.wordpress.com/2015/09/12/build-massively-scalable-restful-api-with-falcon-and-pypy/)
+
+
 ### Install PyPy
 * Download PyPy interpreter from [here](http://pypy.org/download.html)
 * install as following
@@ -20,6 +22,10 @@ $ sudo service rethinkdb start
 
 ###Create Project
 I will be using virtualenv.
+
+
+### falcon Cookie Cutter Template
+* trying [this](https://github.com/falconry/falcon/wiki/Project-Templates-and-Samples) template
 
 ```sh
 $ mkdir falcon_test
